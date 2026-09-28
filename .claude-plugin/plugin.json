@@ -1,0 +1,7 @@
+{
+  "name": "pz-modding",
+  "version": "0.1.0",
+  "description": "Skills and commands for building Project Zomboid (Build 42) mods: mod structure, item/recipe scripts, Lua events and API, multiplayer, and source lookup.",
+  "author": { "name": "MateusBMP" },
+  "keywords": ["project-zomboid", "modding", "lua", "build42"]
+}

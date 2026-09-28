@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-A Claude Code plugin that helps developers build Project Zomboid mods. The repository is in its initial stage: there is no code, build system or test setup yet. Update this file as those are added.
+A Claude Code plugin (`pz-modding`) that helps developers build Project Zomboid (Build 42) mods. It is content only (Markdown skills and commands, no build system or tests). Skill content is derived from the vanilla Lua, the decompiled Java and the pz-modding-guide; see `skills/pz-source-lookup/SKILL.md` for the source paths. Verify facts against those sources before adding them to a skill.
+
+Current components: skills `pz-source-lookup`, `pz-mod-structure`, `pz-item-scripts`, `pz-craft-recipes`, `pz-lua-events`, `pz-lua-api`, `pz-multiplayer`, `pz-timed-actions-ui`; command `/pz-new-mod`.
 
 ## Plugin structure
 
