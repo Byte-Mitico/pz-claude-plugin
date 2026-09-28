@@ -16,3 +16,7 @@ Follow the standard Claude Code plugin layout:
 - Component directories go at the repo root, not inside `.claude-plugin/`: `skills/` (each skill is `skills/<name>/SKILL.md`), `commands/`, `agents/`, `hooks/hooks.json`, and `.mcp.json` for MCP servers.
 
 To test the plugin locally, load it with `claude --plugin-dir .` from the repo root.
+
+## Versioning
+
+For each new commit, run the project skill `bump-plugin-version` (`.claude/skills/bump-plugin-version/SKILL.md`) before committing, so the `version` in `.claude-plugin/plugin.json` is updated and staged with the commit.
