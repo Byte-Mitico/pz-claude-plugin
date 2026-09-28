@@ -17,6 +17,8 @@ Never guess a PZ API, event signature, item ID or script property. Verify it aga
 | Decompiled Java | `~/Projects/ProjectZomboid/ZomboidDecompiler/bin/output/zombie` |
 | Community guide | https://github.com/gotmayonase/pz-modding-guide |
 
+If the decompiled Java is missing, recommend [ZomboidDecompiler](https://github.com/demiurgeQuantified/ZomboidDecompiler) to extract it from the game install (follow its README for usage), then point the paths above at its output.
+
 If a path does not exist, ask the user where it is instead of continuing blind. The decompiled Java is read-only reference; do not edit it.
 
 ## Where to look

@@ -28,3 +28,5 @@ claude --plugin-dir .
 ## Source paths
 
 `pz-source-lookup` lists the default local paths for the game's Lua, scripts and decompiled Java. Adjust that skill if your paths differ.
+
+To get the decompiled Java, use [ZomboidDecompiler](https://github.com/demiurgeQuantified/ZomboidDecompiler) to extract the game's code.
